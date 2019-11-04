@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/steelCurio/static/css/main.dc12d986.chunk.css",
-    "main.js": "/steelCurio/static/js/main.c827458d.chunk.js",
-    "main.js.map": "/steelCurio/static/js/main.c827458d.chunk.js.map",
+    "main.js": "/steelCurio/static/js/main.c08e16c4.chunk.js",
+    "main.js.map": "/steelCurio/static/js/main.c08e16c4.chunk.js.map",
     "runtime-main.js": "/steelCurio/static/js/runtime-main.33cde5b1.js",
     "runtime-main.js.map": "/steelCurio/static/js/runtime-main.33cde5b1.js.map",
     "static/js/2.f9c057b3.chunk.js": "/steelCurio/static/js/2.f9c057b3.chunk.js",
     "static/js/2.f9c057b3.chunk.js.map": "/steelCurio/static/js/2.f9c057b3.chunk.js.map",
     "index.html": "/steelCurio/index.html",
-    "precache-manifest.5c688525ff12e97fa638bdad10b5c4a7.js": "/steelCurio/precache-manifest.5c688525ff12e97fa638bdad10b5c4a7.js",
+    "precache-manifest.1b6e70e3e94a1dc2fc3dfb8da85d3eb9.js": "/steelCurio/precache-manifest.1b6e70e3e94a1dc2fc3dfb8da85d3eb9.js",
     "service-worker.js": "/steelCurio/service-worker.js",
     "static/css/main.dc12d986.chunk.css.map": "/steelCurio/static/css/main.dc12d986.chunk.css.map",
     "static/media/logo.svg": "/steelCurio/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.33cde5b1.js",
     "static/js/2.f9c057b3.chunk.js",
     "static/css/main.dc12d986.chunk.css",
-    "static/js/main.c827458d.chunk.js"
+    "static/js/main.c08e16c4.chunk.js"
   ]
 }
