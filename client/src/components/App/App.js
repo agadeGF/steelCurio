@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Routes from '../../routes';
 import logo from './logo.svg';
 import './App.css';
@@ -22,9 +22,9 @@ function App() {
         </a> */}
       </header>
       <section>
-        <BrowserRouter>
+        <HashRouter>
           <Routes></Routes>
-        </BrowserRouter>
+        </HashRouter>
       </section>
     </div>
   );

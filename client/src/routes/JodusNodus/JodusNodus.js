@@ -18,7 +18,7 @@ const JodusNodus = () => {
         delay={300}
         onError={handleError}
         onScan={handleScan}
-        style={{ width: '600px', margin: '20px auto' }}
+        style={{ maxWidth: '600px', margin: '20px auto' }}
       />
       <p>{result}</p>
     </div>
