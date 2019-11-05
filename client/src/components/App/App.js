@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter } from 'react-router-dom';
 import Routes from '../../routes';
+import * as homeScreen from '../../homeScreen';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,6 +17,10 @@ function App() {
           <Routes></Routes>
         </HashRouter>
       </section>
+
+      <footer>
+        <button onClick={homeScreen.promptInstallation} className="App__install-button" >Install me :)</button>
+      </footer>
     </div>
   );
 }
