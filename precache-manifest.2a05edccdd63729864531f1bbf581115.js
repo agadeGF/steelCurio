@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc3d19b22d939795b41411017d5fee3",
+    "revision": "c38720e903dbabc4617e11c07c3f7f3b",
     "url": "/steelCurio/index.html"
   },
   {
