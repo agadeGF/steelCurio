@@ -13,8 +13,8 @@ const SubmitDevices = () => {
       <br />
       <div>Or add devices to another person:</div>
       <div className="submit-devices__email">
-        <label>Email: </label>
-        <input type="email" disabled={true} />
+        <label className="device-list__label">Email: </label>
+        <input className="device-list__name" type="email" disabled={true} />
       </div>
       <div>
         <button className="App__install-button" disabled={true}>Send</button>

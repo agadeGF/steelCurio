@@ -1,0 +1,15 @@
+.device-list__name {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.device-list__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.device-list > div {
+  display: block;
+  margin: 10px auto;
+}
