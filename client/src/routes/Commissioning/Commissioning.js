@@ -1,26 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
 import QrReader from 'react-qr-reader';
+import useDevices from '../../hooks/useDevices';
+import DeviceList from '../../components/DeviceList/DeviceList';
+import './Commissioning.css';
 
 const Commissioning = () => {
-  const [result, setResult] = useState('No result');
+  const [state, dispatch] = useDevices();
 
   const handleScan = data => {
-    if (data) setResult(data);
+    if (data) dispatch({ type: 'add', id: data });
   }
 
   const handleError = err => {
     console.error(err)
   }
-  
+
   return (
-    <div>
+    <div className="commissioning">
       <QrReader
         delay={300}
         onError={handleError}
         onScan={handleScan}
         style={{ maxWidth: '600px', margin: '20px auto' }}
       />
-      <p>{result}</p>
+      <DeviceList devices={state} />
     </div>
   );
 };
