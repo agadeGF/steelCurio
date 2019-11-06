@@ -2,13 +2,19 @@ import React from 'react';
 import useDevices from '../../hooks/useDevices';
 
 const DeviceList = ({devices}) => {
+  const [state, dispatch] = useDevices();
+
+  const onChange = e => {
+    dispatch({type: 'editName', id: e.target.id, name: e.target.value});
+  };
+
   return (
     <div className="commissioning__device-list">
       {
         devices.map(device => (
           <div key={device.id}>
             <label>Device name: </label>
-            <input type="text" defaultValue={device.name} />
+            <input id={device.id} type="text" defaultValue={device.name} onChange={onChange} />
           </div>
         ))
       }
