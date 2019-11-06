@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/steelCurio/precache-manifest.f591107439482c5e071cc7f9ccea0804.js"
+  "/steelCurio/precache-manifest.fe8cfe755468bb10ed97d2b117263fbd.js"
 );
 
 self.addEventListener('message', (event) => {

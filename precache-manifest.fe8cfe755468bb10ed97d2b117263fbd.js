@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec79c43461f59a68f72b35c034e2ab01",
+    "revision": "c4864da36feb1ae96608954c81d4aef1",
     "url": "/steelCurio/index.html"
   },
   {
-    "revision": "5dde282738b7f4dc8814",
-    "url": "/steelCurio/static/css/main.7d4ee31d.chunk.css"
+    "revision": "a58a23850a26d6d47fd0",
+    "url": "/steelCurio/static/css/main.482fb37a.chunk.css"
   },
   {
-    "revision": "71a97cc9ba5a4c448e30",
-    "url": "/steelCurio/static/js/2.35164c1f.chunk.js"
+    "revision": "c5ddc9254a02117080fc",
+    "url": "/steelCurio/static/js/2.226c78ac.chunk.js"
   },
   {
-    "revision": "5dde282738b7f4dc8814",
-    "url": "/steelCurio/static/js/main.5966b7b2.chunk.js"
+    "revision": "a58a23850a26d6d47fd0",
+    "url": "/steelCurio/static/js/main.a577b25b.chunk.js"
   },
   {
     "revision": "de4ff38d1681a5527db3",

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/steelCurio/static/css/main.7d4ee31d.chunk.css",
-    "main.js": "/steelCurio/static/js/main.5966b7b2.chunk.js",
-    "main.js.map": "/steelCurio/static/js/main.5966b7b2.chunk.js.map",
+    "main.css": "/steelCurio/static/css/main.482fb37a.chunk.css",
+    "main.js": "/steelCurio/static/js/main.a577b25b.chunk.js",
+    "main.js.map": "/steelCurio/static/js/main.a577b25b.chunk.js.map",
     "runtime-main.js": "/steelCurio/static/js/runtime-main.33cde5b1.js",
     "runtime-main.js.map": "/steelCurio/static/js/runtime-main.33cde5b1.js.map",
-    "static/js/2.35164c1f.chunk.js": "/steelCurio/static/js/2.35164c1f.chunk.js",
-    "static/js/2.35164c1f.chunk.js.map": "/steelCurio/static/js/2.35164c1f.chunk.js.map",
+    "static/js/2.226c78ac.chunk.js": "/steelCurio/static/js/2.226c78ac.chunk.js",
+    "static/js/2.226c78ac.chunk.js.map": "/steelCurio/static/js/2.226c78ac.chunk.js.map",
     "index.html": "/steelCurio/index.html",
-    "precache-manifest.f591107439482c5e071cc7f9ccea0804.js": "/steelCurio/precache-manifest.f591107439482c5e071cc7f9ccea0804.js",
+    "precache-manifest.fe8cfe755468bb10ed97d2b117263fbd.js": "/steelCurio/precache-manifest.fe8cfe755468bb10ed97d2b117263fbd.js",
     "service-worker.js": "/steelCurio/service-worker.js",
-    "static/css/main.7d4ee31d.chunk.css.map": "/steelCurio/static/css/main.7d4ee31d.chunk.css.map",
+    "static/css/main.482fb37a.chunk.css.map": "/steelCurio/static/css/main.482fb37a.chunk.css.map",
     "static/media/logo.svg": "/steelCurio/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.33cde5b1.js",
-    "static/js/2.35164c1f.chunk.js",
-    "static/css/main.7d4ee31d.chunk.css",
-    "static/js/main.5966b7b2.chunk.js"
+    "static/js/2.226c78ac.chunk.js",
+    "static/css/main.482fb37a.chunk.css",
+    "static/js/main.a577b25b.chunk.js"
   ]
 }
