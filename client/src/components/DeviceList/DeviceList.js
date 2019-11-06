@@ -2,6 +2,7 @@ import React from 'react';
 import useDevices from '../../hooks/useDevices';
 
 const DeviceList = ({devices}) => {
+  // eslint-disable-next-line
   const [state, dispatch] = useDevices();
 
   const onChange = e => {

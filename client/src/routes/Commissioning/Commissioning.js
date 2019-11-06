@@ -2,6 +2,7 @@ import React from 'react';
 import QrReader from 'react-qr-reader';
 import useDevices from '../../hooks/useDevices';
 import DeviceList from '../../components/DeviceList/DeviceList';
+import SubmitDevices from '../../components/SubmitDevices/SubmitDevices';
 import './Commissioning.css';
 
 const Commissioning = () => {
@@ -24,6 +25,7 @@ const Commissioning = () => {
         style={{ maxWidth: '600px', margin: '20px auto' }}
       />
       <DeviceList devices={state} />
+      <SubmitDevices />
     </div>
   );
 };
