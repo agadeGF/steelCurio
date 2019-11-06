@@ -16,6 +16,12 @@ const DeviceList = ({devices}) => {
     }
   }
 
+  const onBlur = e => {
+    if (!e.target.value.length) {
+      e.target.value = e.target.id;
+    }
+  }
+
   return (
     <div className="device-list">
       {
@@ -29,6 +35,7 @@ const DeviceList = ({devices}) => {
               defaultValue={device.name}
               onChange={onChange}
               onClick={onClick}
+              onBlur={onBlur}
             />
           </div>
         ))
