@@ -46,3 +46,7 @@
 .App__install-button:focus {
   outline: none;
 }
+
+footer {
+  margin-bottom: 20px;
+}

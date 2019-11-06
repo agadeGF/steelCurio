@@ -1,4 +1,5 @@
 let deferredPrompt = null;
+export let canInstall = false;
 
 export const register = () => {
   window.addEventListener('beforeinstallprompt', e => {
@@ -6,6 +7,7 @@ export const register = () => {
     e.preventDefault();
     // Stash the event so it can be triggered later.
     deferredPrompt = e;
+    canInstall = true;
   });
 };
 
@@ -21,5 +23,6 @@ export const promptInstallation = () => {
         console.log('User dismissed the A2HS prompt');
       }
       deferredPrompt = null;
+      canInstall = false;
     });
 };

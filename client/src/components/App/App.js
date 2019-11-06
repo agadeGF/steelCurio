@@ -19,7 +19,11 @@ function App() {
       </section>
 
       <footer>
-        <button onClick={homeScreen.promptInstallation} className="App__install-button">Install me</button>
+        {
+          homeScreen.canInstall
+            ? <button onClick={homeScreen.promptInstallation} className="App__install-button">Install me</button>
+            : null
+        }
       </footer>
     </div>
   );
