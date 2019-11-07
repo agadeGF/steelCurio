@@ -1,13 +1,9 @@
 import React from 'react';
-import useDevices from '../../hooks/useDevices';
 import './DeviceList.css';
 
-const DeviceList = ({devices}) => {
-  // eslint-disable-next-line
-  const [state, dispatch] = useDevices();
-
+const DeviceList = ({devices, onChangeName}) => {
   const onChange = e => {
-    dispatch({type: 'editName', id: e.target.id, name: e.target.value});
+    onChangeName(e);
   };
 
   const onClick = e => {
@@ -34,7 +30,7 @@ const DeviceList = ({devices}) => {
               type="text"
               defaultValue={device.name}
               onChange={onChange}
-              onClick={onClick}
+              onFocus={onClick}
               onBlur={onBlur}
             />
           </div>
